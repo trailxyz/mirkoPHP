@@ -1,6 +1,5 @@
-// footer.php
 <?php
-include 'includes/functions.php';
+require_once 'functions.php';
 startSession(); // Pokreće sesiju
 ?>
 

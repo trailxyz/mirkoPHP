@@ -1,5 +1,6 @@
 <?php
 include_once '../includes/config.php';
+require_once '../includes/header.php';
 
 $sql = "SELECT articles.id, articles.title, articles.content, users.username AS author, articles.created_at 
         FROM articles 
@@ -227,3 +228,4 @@ $conn->close();
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
 </html>
+<?php require_once '../includes/footer.php'; ?>
