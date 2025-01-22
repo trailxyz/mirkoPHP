@@ -28,6 +28,18 @@ startSession(); // Pokreće sesiju
                         <li class="nav-item">
                             <a class="nav-link" href="../admin/users.php">Manage Users</a>
                         </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../admin/mailing_lists.php">Manage Mailing list</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../admin/product_reviews.php">Manage Product reviews</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../admin/page_reviews.php">Manage Site reviews</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../admin/articles.php">Manage Articles</a>
+                        </li>
                     <?php endif; ?>
                     <li class="nav-item">
                         <a class="nav-link" href="../logout.php">Logout</a>
