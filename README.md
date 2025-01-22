@@ -1,0 +1,1 @@
+mene bu pamet stavila
